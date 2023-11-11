@@ -611,6 +611,7 @@ a {
 	padding: 1.5rem;
 	display: flex;
 	flex-direction: column;
+  margin-left: 5%;
   }
   .about-container .right-about .about-item .abt-text .large-text {
 	font-size: 3rem;
@@ -2565,6 +2566,7 @@ body::-webkit-scrollbar {
     }
 	.about-container {
 	  grid-template-columns: repeat(1, 1fr);
+    margin-top: 0rem;
 	}
 	.about-container .right-about {
 	  padding-top: 2.5rem;
@@ -2699,16 +2701,20 @@ body::-webkit-scrollbar {
     {
       padding-right: 4vw;
       padding-left: 4vw;
+      margin: 5vw;
     }
     .image_carusel {
       border: 4px solid black;
-      width: 80vw;
+      width: 70vw;
     }
     .carusel-container .left-carusel .carusel-img::after {
       left: -10vw;
       top: 10vw;
-      height: 100vw;
-      width: 80vw;
+      height: 90vw;
+      width: 70vw;
+  }
+  .carusel-container_poza{
+    padding-top: 5rem;
   }
   .about-container .left-about h4 {
     font-size: 7vw;
@@ -2783,7 +2789,8 @@ body::-webkit-scrollbar {
     font-size: 5vw;
   }
   .about-container .left-about p{
-    font-size: 4vw;
+    font-size: 3.5vw;
+    line-height: 6vw;
   }
   .carusel-container .right-carusel p {
     line-height: 5vw;
@@ -2810,7 +2817,8 @@ body::-webkit-scrollbar {
     height: auto;
   }
   .produs_popup-inner {
-    width: 95vw;
+    width: 85vw;
+    padding: 1.5rem;
   }
   .shopping-cart .description span{
     font-size: 5vw;
@@ -2851,12 +2859,19 @@ body::-webkit-scrollbar {
     margin-right: 1%;
   }
   #shop .shop_filters2 {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 #shop .filtru{
   padding: 0.25rem 0.4rem;
 }
+.carusel-container .right-carusel h4{
+  font-size:7vw;
+}
+#shop .shop_item{
+  padding: 0.25rem 0.5rem;
+}
+
 }
 @media screen and (max-width: 480px) {
   .button-submit {
