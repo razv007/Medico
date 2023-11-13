@@ -1170,14 +1170,16 @@ animation: flash .5s infinite;
 }
 #contact .contact-items {
 	max-width: 1400px;
+  margin-top: 10rem;
 }
 #contact .contact-item {
-	width: 80%;
-	padding: 20px;
+	width: 85%;
 	text-align: center;
 	border-radius: 10px;
 	padding: 30px;
-	margin:30px;
+	margin-left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 30px  ;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -2472,6 +2474,8 @@ body::-webkit-scrollbar {
 		width: 30%;
 		margin: 0;
 		flex-direction: row;
+    margin-left: 0;
+    transform: translate(0, 0);
 	}
 	#contact .contact-item .icon {
 		height: 100px;
