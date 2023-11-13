@@ -2721,10 +2721,11 @@ body::-webkit-scrollbar {
       padding: 0rem;
     }
     .news {
-      grid-template-columns: repeat(1, 1fr);
-      padding-left: 25vw;
-      padding-right: 25vw;
-    }
+      grid-template-columns: repeat(2, 1fr);
+      padding-left: 10vw;
+      padding-right: 10vw;
+      margin-bottom: 8rem;
+    } 
     .carusel-container .right-carusel
     {
       padding-right: 4vw;
