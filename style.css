@@ -1663,9 +1663,7 @@ animation: flash .5s infinite;
   margin-bottom: var(--mb-0-5);
 }
 .produs_popup-body{
-  max-height:40vh;
   padding: 1rem;
-  overflow-y: auto;
   direction: ltr;
   scrollbar-color: #d4aa70 #e4e4e4;
   scrollbar-width: thin;
@@ -2306,6 +2304,10 @@ body::-webkit-scrollbar {
     width: auto;
     margin-left: 50%;
     transform: translate(-50%,0);
+  }
+  .produs_popup-body{
+    max-height:35vh;
+    overflow-y: auto;
   }
 }
 @media screen and (max-width: 1408px) {
